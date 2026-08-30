@@ -1,8 +1,50 @@
+<p align="center">
+  <img src="./assets/banner.svg" alt="SpeakGenie banner" width="100%"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="status"/>
+  <img src="https://img.shields.io/badge/frontend-vanilla%20JS-yellow" alt="frontend"/>
+  <img src="https://img.shields.io/badge/backend-Supabase-3ecf8e" alt="backend"/>
+  <img src="https://img.shields.io/badge/build%20step-none-blue" alt="no build"/>
+  <img src="https://img.shields.io/badge/license-MIT-lightgrey" alt="license"/>
+  <img src="https://img.shields.io/badge/PRs-welcome-orange" alt="PRs welcome"/>
+</p>
+
 # 🪔 SpeakGenie
 
 **An AI-powered English learning app for kids (ages 6–16)** — word games, AI hero voice calls, comics, spaced-repetition flashcards, daily quizzes, and a synced leaderboard, all in a single self-contained web app.
 
 > Built as a single-file HTML/CSS/JS app backed by [Supabase](https://supabase.com) for auth, cross-device sync, and history tracking.
+
+---
+
+## 📊 By the Numbers
+
+| | | | |
+|---|---|---|---|
+| 🦸 **6** AI heroes to call | 🎮 **8** games & activities | 🎨 **5** illustrated comics | 🃏 **20** flashcards (real SM-2) |
+| 🧠 **5** rotating quiz banks | 🔗 **460+** word dictionary (Word Chain) | 📖 **3** reading passages | 📅 **7** rotating topics-of-the-day |
+| 🏅 **8** real achievements | 🎭 **50** avatars | 📱 **25** app screens | ☁️ **100%** cloud-synced progress |
+
+---
+
+## 📸 Screenshots & Demos
+
+> These two are illustrative animated mockups built from the app's real visual language (progress bars, streak flame, voice-call waveform) — swap them for actual screen recordings once you've deployed. Easiest way to get a real GIF: use a free tool like [ScreenToGif](https://www.screentogif.com/) (Windows) or [Kap](https://getkap.co/) (Mac), record the app in your browser, then drag the `.gif` into a GitHub Issue/PR text box to get a hosted URL to paste below.
+
+<p align="center">
+  <img src="./assets/demo-progress.svg" alt="XP progress and streak demo" width="48%"/>
+  <img src="./assets/demo-ai-call.svg" alt="AI hero voice call demo" width="48%"/>
+</p>
+
+| Home | AI Hero Call | Word Games |
+|---|---|---|
+| _add screenshot/GIF_ | _add screenshot/GIF_ | _add screenshot/GIF_ |
+
+| Comics | Flashcards | Leaderboard |
+|---|---|---|
+| _add screenshot/GIF_ | _add screenshot/GIF_ | _add screenshot/GIF_ |
 
 ---
 
