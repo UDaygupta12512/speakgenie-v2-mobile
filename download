@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local environment / secrets (if you ever move config out of index.html)
+.env
+.env.local
+
+# Logs
+*.log
+
+# Old/backup versions
+*_old.html
+*_backup.html
+*.bak
