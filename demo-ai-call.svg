@@ -1,0 +1,64 @@
+<svg width="600" height="180" viewBox="0 0 600 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="callbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a0a40"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="180" fill="url(#callbg)" rx="20"/>
+
+  <!-- bouncing hero avatar -->
+  <g transform="translate(90,90)">
+    <text font-size="64" text-anchor="middle" dominant-baseline="middle">
+      🤖
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="1.2s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- voice waveform bars -->
+  <g transform="translate(170,90)" fill="#a78bfa">
+    <rect x="0" y="-8" width="6" height="16" rx="3">
+      <animate attributeName="height" values="10;28;10" dur="0.6s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-5;-14;-5" dur="0.6s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="12" y="-14" width="6" height="28" rx="3">
+      <animate attributeName="height" values="28;12;28" dur="0.6s" begin="0.1s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-14;-6;-14" dur="0.6s" begin="0.1s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="24" y="-6" width="6" height="12" rx="3">
+      <animate attributeName="height" values="12;24;12" dur="0.6s" begin="0.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-6;-12;-6" dur="0.6s" begin="0.2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="36" y="-10" width="6" height="20" rx="3">
+      <animate attributeName="height" values="20;8;20" dur="0.6s" begin="0.3s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-10;-4;-10" dur="0.6s" begin="0.3s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="48" y="-12" width="6" height="24" rx="3">
+      <animate attributeName="height" values="24;14;24" dur="0.6s" begin="0.4s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="-12;-7;-12" dur="0.6s" begin="0.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- typing / speaking caption bubble -->
+  <g transform="translate(280,55)">
+    <rect x="0" y="0" width="290" height="70" rx="16" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)"/>
+    <text x="16" y="28" font-size="13" fill="#ffffff" font-family="Verdana" font-weight="bold">Doraemon is speaking…</text>
+    <text x="16" y="50" font-size="12" fill="#c4b5fd" font-family="Verdana">
+      "Gravity is a force that pulls..."
+      <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite"/>
+    </text>
+    <g transform="translate(260,55)" fill="#6ee7b7">
+      <circle cx="0" cy="0" r="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="10" cy="0" r="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0.15s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="20" cy="0" r="3">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1s" begin="0.3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+
+  <text x="90" y="160" font-size="12" fill="#fde68a" font-family="Verdana" text-anchor="middle" font-weight="bold">🎙️ Live voice call</text>
+</svg>
