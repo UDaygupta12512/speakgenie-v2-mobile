@@ -1,0 +1,47 @@
+<svg width="600" height="160" viewBox="0 0 600 160" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="xpfill" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="160" fill="#0a0618" rx="20"/>
+
+  <!-- Streak flame, pulsing -->
+  <g transform="translate(70,80)">
+    <text font-size="54" text-anchor="middle" dominant-baseline="middle">
+      🔥
+      <animateTransform attributeName="transform" type="scale" values="1;1.18;1" dur="1.4s" repeatCount="indefinite"/>
+    </text>
+    <text y="45" font-size="15" fill="#fbbf24" font-family="Verdana" text-anchor="middle" font-weight="bold">
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.4s" repeatCount="indefinite"/>
+      12 day streak
+    </text>
+  </g>
+
+  <!-- XP bar filling -->
+  <g transform="translate(180,55)">
+    <text y="-10" font-size="13" fill="#a78bfa" font-family="Verdana" font-weight="bold">Level 3 · Learner</text>
+    <rect x="0" y="0" width="380" height="16" rx="8" fill="rgba(255,255,255,0.1)"/>
+    <rect x="0" y="0" height="16" rx="8" fill="url(#xpfill)">
+      <animate attributeName="width" values="20;340;20" dur="4s" repeatCount="indefinite"/>
+    </rect>
+    <text y="38" font-size="12" fill="#fde68a" font-family="Verdana">
+      <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite"/>
+      ⚡ +30 XP earned!
+    </text>
+  </g>
+
+  <!-- sparkle stars -->
+  <g fill="#fde68a">
+    <circle cx="550" cy="30" r="2">
+      <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="570" cy="60" r="1.5">
+      <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="540" cy="90" r="2">
+      <animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
